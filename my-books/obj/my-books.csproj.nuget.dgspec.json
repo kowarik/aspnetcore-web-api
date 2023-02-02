@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\UDEMY\\Web Api (Ervis Trupja)\\my-books\\my-books\\my-books.csproj": {}
+    "D:\\1programming\\UDEMY\\Web Api (Ervis Trupja)\\my-books\\my-books\\my-books.csproj": {}
   },
   "projects": {
-    "D:\\UDEMY\\Web Api (Ervis Trupja)\\my-books\\my-books\\my-books.csproj": {
+    "D:\\1programming\\UDEMY\\Web Api (Ervis Trupja)\\my-books\\my-books\\my-books.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\UDEMY\\Web Api (Ervis Trupja)\\my-books\\my-books\\my-books.csproj",
+        "projectUniqueName": "D:\\1programming\\UDEMY\\Web Api (Ervis Trupja)\\my-books\\my-books\\my-books.csproj",
         "projectName": "my-books",
-        "projectPath": "D:\\UDEMY\\Web Api (Ervis Trupja)\\my-books\\my-books\\my-books.csproj",
+        "projectPath": "D:\\1programming\\UDEMY\\Web Api (Ervis Trupja)\\my-books\\my-books\\my-books.csproj",
         "packagesPath": "C:\\Users\\Кирилл\\.nuget\\packages\\",
-        "outputPath": "D:\\UDEMY\\Web Api (Ervis Trupja)\\my-books\\my-books\\obj\\",
+        "outputPath": "D:\\1programming\\UDEMY\\Web Api (Ervis Trupja)\\my-books\\my-books\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Кирилл\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,40 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
